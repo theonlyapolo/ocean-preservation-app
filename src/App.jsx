@@ -67,7 +67,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <Waves className="h-8 w-8" />
-              <h1 className="text-2xl font-bold">BlueAware</h1>
+              <h1 className="text-2xl font-bold">Política Azul</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
               <a href="#home" className="hover:text-blue-200 transition-colors">Início</a>
@@ -458,7 +458,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; {new Date().getFullYear()} BlueAware. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Política Azul. Todos os direitos reservados.</p>
           <p className="text-sm mt-2">Feito com paixão pela preservação oceânica.</p>
         </div>
       </footer>
