@@ -165,11 +165,317 @@ function App() {
             </TabsTrigger>
           </TabsList>
 
-          {/* --- Conteúdo Original --- */}
           {/* Políticas Públicas */}
-          {/* (o conteúdo das outras abas originais permanece o mesmo aqui) */}
-          {/* ... (mantenha o código que você já tinha) ... */}
+          <TabsContent id="policies" value="policies" className="space-y-6 mt-6">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center text-lg sm:text-xl">
+                  <BookOpen className="mr-2 h-6 w-6 text-primary" />
+                  Políticas Públicas de Preservação Oceânica
+                </CardTitle>
+                <CardDescription>
+                  Conheça as principais políticas e legislações para proteção dos oceanos no Brasil
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  <Card className="border-l-4 border-l-red-500">
+                    <CardHeader>
+                      <CardTitle className="text-lg">Descaso Governamental</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-gray-600 mb-4">
+                        O oceano é o bioma menos considerado em políticas públicas. 
+                        Menos de 2% dos orçamentos nacionais são direcionados para pesquisa oceânica.
+                      </p>
+                      <Badge variant="destructive">Urgente</Badge>
+                    </CardContent>
+                  </Card>
 
+                  <Card className="border-l-4 border-l-orange-500">
+                    <CardHeader>
+                      <CardTitle className="text-lg">Lei do Plástico</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-gray-600 mb-4">
+                        É urgente criar uma lei nacional para reduzir a produção de plásticos de uso único. 
+                        O Brasil produz 7 milhões de toneladas de plástico por ano.
+                      </p>
+                      <Badge variant="secondary">Em Discussão</Badge>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="border-l-4 border-l-blue-500">
+                    <CardHeader>
+                      <CardTitle className="text-lg">Década da Ciência Oceânica</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-gray-600 mb-4">
+                        Iniciativa da ONU (2021-2030) para unir esforços na reversão do declínio 
+                        da saúde oceânica e garantir exploração sustentável.
+                      </p>
+                      <Badge>Em Andamento</Badge>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="border-l-4 border-l-green-500">
+                    <CardHeader>
+                      <CardTitle className="text-lg">Lei do Mar</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-gray-600 mb-4">
+                        Projeto aprovado na Câmara que cria política nacional para uso sustentável 
+                        do território marinho e fortalece a governança ambiental.
+                      </p>
+                      <Badge variant="default">Aprovado</Badge>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* Ações Individuais */}
+          <TabsContent id="actions" value="individual" className="space-y-6 mt-6">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center text-lg sm:text-xl">
+                  <Heart className="mr-2 h-6 w-6 text-primary" />
+                  Como Você Pode Fazer a Diferença
+                </CardTitle>
+                <CardDescription>
+                  Pequenas ações individuais que geram grande impacto na preservação oceânica
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  <div className="order-2 lg:order-1">
+                    <h3 className="font-semibold mb-3">Ações Práticas do Dia a Dia</h3>
+                    <div className="space-y-3">
+                      <div className="flex items-start space-x-3">
+                        <Recycle className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
+                        <div>
+                          <p className="font-medium">Reduza o Plástico</p>
+                          <p className="text-sm text-gray-600">Use sacolas reutilizáveis, garrafas de vidro e evite produtos descartáveis</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <Fish className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                        <div>
+                          <p className="font-medium">Consumo Consciente</p>
+                          <p className="text-sm text-gray-600">Escolha frutos do mar de fontes sustentáveis e certificadas</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <TreePine className="h-5 w-5 text-green-600 mt-0.5 flex-shrink-0" />
+                        <div>
+                          <p className="font-medium">Descarte Correto</p>
+                          <p className="text-sm text-gray-600">Separe o lixo corretamente e participe da coleta seletiva</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="order-1 lg:order-2">
+                    <img 
+                      src={illustration1} 
+                      alt="Ecossistema Marinho Saudável" 
+                      className="rounded-lg mb-4 w-full"
+                    />
+                    <h3 className="font-semibold mb-4">Calculadora de Impacto Pessoal</h3>
+                    <div className="space-y-4">
+                      <div>
+                        <label className="text-sm font-medium">Uso de sacolas plásticas por semana:</label>
+                        <Progress value={30} className="mt-2" />
+                        <p className="text-xs text-gray-500 mt-1">Reduzindo para 2 sacolas/semana = 104 sacolas/ano economizadas</p>
+                      </div>
+                      <div>
+                        <label className="text-sm font-medium">Garrafas plásticas por semana:</label>
+                        <Progress value={60} className="mt-2" />
+                        <p className="text-xs text-gray-500 mt-1">Usando garrafa reutilizável = 312 garrafas/ano economizadas</p>
+                      </div>
+                      <div className="bg-green-50 p-4 rounded-lg">
+                        <p className="text-sm font-medium text-green-800">Seu Impacto Anual:</p>
+                        <p className="text-lg font-bold text-green-600">416 itens plásticos economizados!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* Ações Coletivas */}
+          <TabsContent id="campanhas" value="collective" className="space-y-6 mt-6">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center text-lg sm:text-xl">
+                  <Users className="mr-2 h-6 w-6 text-primary" />
+                  Ações Coletivas e Campanhas
+                </CardTitle>
+                <CardDescription>
+                  Conecte-se com organizações e participe de iniciativas de preservação oceânica
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  <div className="order-2 lg:order-1">
+                    <h3 className="font-semibold mb-3">Como Participar</h3>
+                    <div className="space-y-3">
+<Button asChild className="w-full justify-start" variant="outline">
+  <a href="https://voiceoftheoceans.com/a-importancia-das-limpezas-de-praia/" target="_blank" rel="noopener noreferrer">
+    <ExternalLink className="mr-2 h-4 w-4" />
+    Limpezas de Praia
+  </a>
+</Button>
+<Button asChild className="w-full justify-start" variant="outline">
+  <a href="https://g1.globo.com/sc/santa-catarina/noticia/2024/05/09/recuperacao-de-manguezais-com-plantio-de-especies-nativas-em-sc-busca-frear-mudancas-climaticas.ghtml" target="_blank" rel="noopener noreferrer">
+    <ExternalLink className="mr-2 h-4 w-4" />
+    Plantio de Mangue
+  </a>
+</Button>
+
+<Button asChild className="w-full justify-start" variant="outline">
+  <a href="https://123ecos.com.br/docs/programa-oceanico-gems/" target="_blank" rel="noopener noreferrer">
+    <ExternalLink className="mr-2 h-4 w-4" />
+    Monitoramento Marinho
+  </a>
+</Button>
+                    </div>
+                  </div>
+                  
+                  <div className="order-1 lg:order-2">
+                    <img 
+                      src={illustration3} 
+                      alt="Ações Coletivas" 
+                      className="rounded-lg mb-4 w-full"
+                    />
+                    <h3 className="font-semibold mb-4">Organizações Parceiras</h3>
+                    <div className="space-y-4">
+                      <Card className="p-4">
+                        <h4 className="font-medium">Oceana Brasil</h4>
+                        <p className="text-sm text-gray-600">Campanhas estratégicas para proteger e restaurar a abundância dos oceanos</p>
+                        <Button asChild size="sm" className="mt-2">
+  <a href="https://brasil.oceana.org/" target="_blank" rel="noopener noreferrer">
+    Saiba Mais
+  </a>
+  </Button>
+                      </Card>
+                      <Card className="p-4">
+                        <h4 className="font-medium">Sea Shepherd Brasil</h4>
+                        <p className="text-sm text-gray-600">Organização internacional de conservação da vida marinha</p>
+                        <Button asChild size="sm" className="mt-2">
+  <a href="https://seashepherd.org.br/" target="_blank" rel="noopener noreferrer">
+    Saiba Mais
+  </a>
+</Button>
+                      </Card>
+                      <Card className="p-4">
+                        <h4 className="font-medium">Instituto Ecosurf</h4>
+                        <p className="text-sm text-gray-600">Empodera surfistas e voluntários para proteção oceânica</p>
+                                                <Button asChild size="sm" className="mt-2">
+  <a href="https://ecosurf.org.br/" target="_blank" rel="noopener noreferrer">
+    Saiba Mais
+  </a>
+  </Button>
+                      </Card>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* Sabia Disso? */}
+          <TabsContent value="facts" className="space-y-6 mt-6">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center text-lg sm:text-xl">
+                  <Lightbulb className="mr-2 h-6 w-6 text-primary" />
+                  Sabia Disso? Curiosidades Oceânicas
+                </CardTitle>
+                <CardDescription>
+                  Fatos surpreendentes sobre nossos oceanos que vão te impressionar
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  <div>
+                    <img 
+                      src={illustration2} 
+                      alt="Poluição Oceânica" 
+                      className="rounded-lg mb-4 w-full"
+                    />
+                    <h3 className="font-semibold mb-3">Conhecimentos Essenciais</h3>
+                    <div className="space-y-3">
+                      <div className="flex items-start space-x-3">
+                        <Award className="h-5 w-5 text-yellow-500 mt-0.5 flex-shrink-0" />
+                        <div>
+                          <p className="font-medium">Conhecemos mais a Lua!</p>
+                          <p className="text-sm text-gray-600">74% do oceano nunca foi explorado. Conhecemos melhor a superfície da Lua do que o fundo do mar.</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <Award className="h-5 w-5 text-yellow-500 mt-0.5 flex-shrink-0" />
+                        <div>
+                          <p className="font-medium">O Grande Filtro</p>
+                          <p className="text-sm text-gray-600">Os oceanos absorvem cerca de 30% do CO2 emitido na atmosfera, ajudando a regular o clima global.</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <Award className="h-5 w-5 text-yellow-500 mt-0.5 flex-shrink-0" />
+                        <div>
+                          <p className="font-medium">Plástico em Todo Lugar</p>
+                          <p className="text-sm text-gray-600">Estima-se que até 2050 haverá mais plástico do que peixes nos oceanos, em peso.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="font-semibold mb-4">Teste Seus Conhecimentos!</h3>
+                    {!showQuizResult ? (
+                      <div className="space-y-4">
+                        <p className="text-lg font-medium">{quizQuestions[currentQuiz].question}</p>
+                        <div className="grid grid-cols-1 gap-2">
+                          {quizQuestions[currentQuiz].options.map((option, index) => (
+                            <Button 
+                              key={index} 
+                              variant="outline" 
+                              onClick={() => handleQuizAnswer(index)}
+                              className="justify-start text-left h-auto p-3"
+                            >
+                              {option}
+                            </Button>
+                          ))}
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="text-center space-y-4">
+                        <h4 className="text-xl font-bold">Quiz Concluído!</h4>
+                        <p className="text-lg">Você acertou {quizScore} de {quizQuestions.length} perguntas.</p>
+                        <p className="text-sm text-gray-600">
+                          {quizScore === quizQuestions.length ? 
+                            "Parabéns! Você é um expert em oceanos!" : 
+                            "Continue aprendendo para proteger nossos oceanos!"
+                          }
+                        </p>
+                        <Button onClick={resetQuiz} className="w-full sm:w-auto">Tentar Novamente</Button>
+                      </div>
+                    )}
+                    {showQuizResult && (
+                      <div className="mt-4 p-4 bg-blue-50 rounded-lg">
+                        <h5 className="font-semibold">Explicação:</h5>
+                        <p className="text-sm text-gray-700">{quizQuestions[currentQuiz - 1]?.explanation}</p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+        
+      
           {/* NOVAS ABAS */}
           <TabsContent value="authors" className="space-y-6 mt-6">
             <Card>
@@ -265,7 +571,6 @@ function App() {
           </TabsContent>
         </Tabs>
       </main>
-
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4 text-center">
