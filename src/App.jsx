@@ -8,7 +8,7 @@ import { Waves, Fish, Users, BookOpen, Lightbulb, ExternalLink, Heart, Recycle, 
 import './App.css';
 
 // Importar as imagens
-import appCover from './assets/app_cover.png';
+import appCover from './assets/app_cover.jpeg';
 import illustration1 from './assets/illustration_1.jpeg';
 import illustration2 from './assets/illustration_2.jpg';
 import illustration3 from './assets/illustration_3.png';
@@ -37,6 +37,36 @@ function App() {
       options: ["100 mil", "200 mil", "325 mil", "500 mil"],
       correct: 2,
       explanation: "O Brasil despeja cerca de 325 mil toneladas de plástico nos oceanos anualmente."
+    },
+    {
+      question: "O que são políticas públicas?",
+      options: ["Regras que só empresas privadas devem seguir", "Programas e ações do governo para resolver problemas da sociedade", "Leis criadas apenas para proteger o meio ambiente", "Decisões tomadas por ONGs internacionais"],
+      correct: 1,
+      explanation: "São estratégias oficiais criadas pelo poder público para atender necessidades coletivas, como saúde, educação e meio ambiente."
+    },
+    {
+      question: "Por que é importante proteger os oceanos?",
+      options: ["Porque eles produzem grande parte do oxigênio e sustentam a vida marinha", "Apenas para manter o turismo", "Para facilitar o transporte de navios", "Porque ocupam pouco espaço no planeta"],
+      correct: 0,
+      explanation: "Organismos marinhos como o fitoplâncton produzem oxigênio e mantêm o equilíbrio ecológico global."
+    },
+    {
+      question: "Qual é a principal fonte de poluição plástica nos mares?",
+      options: ["Resíduos da construção civil", "Lixo doméstico descartado incorretamente", "Poeira urbana", "Derramamento de petróleo"],
+      correct: 1,
+      explanation: "A maior parte do plástico vem de resíduos urbanos que chegam aos rios e mares através do descarte inadequado."
+    },
+    {
+      question: "Como o tratamento de esgoto está relacionado com a saúde dos oceanos?",
+      options: ["Reduzindo a quantidade de poluentes que chegam ao mar", "Aumentando a temperatura da água", "Facilitando a pesca", "Evitando a proliferação de barcos"],
+      correct: 0,
+      explanation: "Ao tratar o esgoto, evita-se que resíduos e substâncias tóxicas contaminem a água e a vida marinha."
+    },
+    {
+      question: "O que a sigla ONU significa e qual a sua importância na proteção dos oceanos?",
+      options: ["Organização Nacional Unificada – fiscaliza rios", "Organização das Nações Unidas – promove acordos e ações globais", "Operação Naval Unida – combate crimes no mar", "Ordem Nacional Urbana – cuida de cidades costeiras"],
+      correct: 1,
+      explanation: "A ONU articula países para criar leis, metas e tratados internacionais que protegem os oceanos."
     }
   ];
 
@@ -485,13 +515,13 @@ function App() {
               </CardHeader>
               <CardContent>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                  <li>Autor 1 – Pesquisa sobre políticas públicas</li>
-                  <li>Autor 2 – Pesquisa sobre biodiversidade</li>
-                  <li>Autor 3 – Coleta de dados históricos</li>
-                  <li>Autor 4 – Análise ambiental</li>
-                  <li>Autor 5 – Produção de conteúdo textual</li>
-                  <li>Autor 6 – Curadoria de imagens</li>
-                  <li><strong>Coautor:</strong> Desenvolvimento do WebApp</li>
+                  <li>Alícia Gomes – Pesquisa sobre ações individuais</li>
+                  <li>Ana Clara – Pesquisa sobre ações coletivas</li>
+                  <li>Anna Beatriz (Líder) – Pesquisa sobre Projeto Tamar</li>
+                  <li>Evelyn Santana – Pesquisa sobre políticas públicas</li>
+                  <li>Fabiely de Souza – Um oceano além do horizonte</li>
+                  <li>Yasmin de Oliveira – Curadoria de imagens</li>
+                  <li><em>Apolo</em> Desenvolvimento do WebApp</li>
                 </ul>
               </CardContent>
             </Card>
@@ -505,7 +535,22 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  (Coloque aqui o resumo histórico da cidade e as leis relevantes.)
+São Mateus, no norte do Espírito Santo, é um dos municípios mais antigos do Brasil, fundado em 1544 e com autonomia desde 1764. 
+Sua história é marcada pela presença de afrodescendentes, devido ao antigo porto que recebia africanos escravizados, e também por descendentes de imigrantes italianos. Atualmente, conta com cerca de 130 mil habitantes e tem a economia baseada em serviços, turismo e petróleo. 
+Entre seus maiores atrativos está a Praia de Guriri, localizada a 13 km do centro, formada após a abertura da foz do Rio Mariricu, o que transformou a área na maior ilha do estado. Com 42 km de extensão, areia clara, águas mornas e piscinas naturais, Guriri é destino turístico famoso, principalmente no Carnaval, e abriga vegetação de restinga preservada. 
+Desde 1988, o Projeto Tamar atua na proteção das tartarugas marinhas e na conscientização ambiental local.
+
+
+
+Três principais leis sobre meio ambiente e oceano no Brasil
+
+1. Lei nº 9.985/2000 (SNUC) – Cria o Sistema Nacional de Unidades de Conservação, protegendo ecossistemas naturais, biodiversidade e áreas costeiras.
+
+
+2. Decreto nº 5.300/2004 (PNGC) – Regulamenta o Plano Nacional de Gerenciamento Costeiro, estabelecendo regras para o uso sustentável da zona costeira e marinha.
+
+
+3. Lei nº 12.651/2012 (Código Florestal) – Protege a vegetação nativa, áreas de preservação permanente (como manguezais) e garante a conservação de ecossistemas litorâneos.
                 </p>
               </CardContent>
             </Card>
@@ -519,7 +564,8 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  (Liste aqui as leis ambientais importantes, como a Lei do Mar, Lei do SNUC etc.)
+                  Acesse as leis aqui:
+                  <a href="https://docs.google.com/document/d/1WsKd3KJN3vf6puL2HUKDMjDfhngEY1-8U_MK4mfvctM/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Leis Ambientais</a>
                 </p>
               </CardContent>
             </Card>
@@ -533,7 +579,15 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  (Informações sobre baleias encontradas mortas em Guriri e as medidas de preservação.)
+                  Ocorreu muitas vezes a presença de baleias na praia de Guriri, o que gerou preocupações sobre a conservação da espécie e o impacto das atividades humanas no seu habitat.
+                  Reportagens encontradas:
+                  <a href="https://www.agazeta.com.br/es/cotidiano/baleia-e-encontrada-morta-na-praia-de-guriri-em-sao-mateus-0820" target="_blank" rel="noopener noreferrer">Baleia é encontrada morta na praia de Guriri, em São Mateus</a>
+                  <a href="https://g1.globo.com/espirito-santo/sul-es/noticia/baleia-jubarte-morta-aparece-em-praia-de-guriri-no-es.ghtml" target="_blank" rel="noopener noreferrer">Baleia jubarte morta aparece em praia de Guriri, no ES</a>
+                  <a href="https://www.agazeta.com.br/es/cotidiano/baleia-jubarte-encalha-em-praia-de-sao-mateus-0824" target="_blank" rel="noopener noreferrer">Baleia-jubarte encalha em praia de São Mateus</a>
+                  <a href="https://tconline.com.br/carcaca-de-jubarte-de-mais-de-13-metros-e-enterrada-em-guriri/" target="_blank" rel="noopener noreferrer">Carcaça de jubarte de mais de 13 metros é enterrada em Guriri</a>
+                  O motivo e como prevenir:
+                  Baleias são encontradas mortas em praias por causas como encalhes acidentais (por desorientação, doenças ou perseguição de predadores), colisões com embarcações, ingestão de lixo marinho e poluição sonora que afeta sua navegação.
+A prevenção envolve reduzir a poluição dos oceanos, limitar o tráfego de barcos em áreas de migração, controlar ruídos subaquáticos e fortalecer programas de monitoramento e resgate rápido.
                 </p>
               </CardContent>
             </Card>
@@ -547,7 +601,18 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  (Informações sobre a restinga, o coquinho e outras espécies nativas.)
+                  A restinga em Guriri é um ecossistema litorâneo com vegetação adaptada a solos arenosos, que atua como importante barreira natural às dunas e separa a Mata Atlântica do oceano.  Na orla norte de Guriri, estão sendo plantadas mudas nativas — inclusive do tradicional coqueiro-guriri — como parte das ações de recuperação ambiental, com proteção por cercamento para evitar impactos humanos
+                  O nome "Guriri" vem do tupi antigo e significa “coco pequeno”, referindo-se aos frutos comestíveis de palmeiras nativas da região, do gênero Allagoptera arenaria, conhecidos popularmente como coquinho-guriri. Essas palmeiras eram — e ainda são — muito abundantes ao longo da ilha, o que inspirou o nome da praia e do balneário.
+                  Além do coqueiro-guriri (Allagoptera arenaria), a restinga de Guriri abriga espécies nativas como:
+
+                  - Ipomeia (Ipomoea pes-caprae) – trepadeira que fixa a areia e ajuda no controle da erosão.
+
+                  - Aroeira (Schinus terebinthifolius) – arbusto resistente que fornece abrigo para aves.
+
+                  - Pitanga-da-praia (Eugenia uniflora) – frutífera nativa que atrai fauna.
+
+                  - Capim-da-praia (Panicum racemosum) – essencial para estabilizar dunas.
+
                 </p>
               </CardContent>
             </Card>
@@ -560,12 +625,7 @@ function App() {
                 <CardDescription>Fontes e materiais consultados</CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc pl-6 space-y-2 text-blue-600">
-                  <li><a href="https://pp.nexojornal.com.br/" target="_blank" rel="noopener noreferrer">Nexo Jornal</a></li>
-                  <li><a href="https://tamar.org.br/" target="_blank" rel="noopener noreferrer">Projeto Tamar</a></li>
-                  <li><a href="https://brasil.oceana.org/" target="_blank" rel="noopener noreferrer">Oceana Brasil</a></li>
-                  {/* Adicione mais links conforme necessário */}
-                </ul>
+                    <a href="https://docs.google.com/document/d/1JxNA-TCURp5L3RCbDmy1jeLHQCNxpngiiU3AFT778E8/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">Acesse aqui</a>
               </CardContent>
             </Card>
           </TabsContent>
