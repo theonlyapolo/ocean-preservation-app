@@ -511,7 +511,7 @@ function App() {
             <Card>
               <CardHeader>
                 <CardTitle>Autores do Projeto</CardTitle>
-                <CardDescription>Conheça a equipe por trás do projeto Política Azul</CardDescription>
+                <CardDescription>Conheça a equipe por trás do projeto Blue Aware</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
