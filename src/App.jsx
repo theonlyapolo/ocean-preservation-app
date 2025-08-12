@@ -142,7 +142,7 @@ function App() {
                   </a>
                 </Button>
                 <Button size="lg" className="bg-green-600 hover:bg-green-700 w-full sm:w-auto">
-                  <a href="/jogo" className="flex items-center">
+                  <a href=https://www.escolagames.com.br/jogos/herois-dos-mares" className="flex items-center">
                     🎮 Jogue Agora
                   </a>
                 </Button>
