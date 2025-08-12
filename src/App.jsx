@@ -535,22 +535,22 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-São Mateus, no norte do Espírito Santo, é um dos municípios mais antigos do Brasil, fundado em 1544 e com autonomia desde 1764. 
-Sua história é marcada pela presença de afrodescendentes, devido ao antigo porto que recebia africanos escravizados, e também por descendentes de imigrantes italianos. Atualmente, conta com cerca de 130 mil habitantes e tem a economia baseada em serviços, turismo e petróleo. 
-Entre seus maiores atrativos está a Praia de Guriri, localizada a 13 km do centro, formada após a abertura da foz do Rio Mariricu, o que transformou a área na maior ilha do estado. Com 42 km de extensão, areia clara, águas mornas e piscinas naturais, Guriri é destino turístico famoso, principalmente no Carnaval, e abriga vegetação de restinga preservada. 
-Desde 1988, o Projeto Tamar atua na proteção das tartarugas marinhas e na conscientização ambiental local.
+São Mateus, no norte do Espírito Santo, é um dos municípios mais antigos do Brasil, fundado em 1544 e com autonomia desde 1764. <br />
+Sua história é marcada pela presença de afrodescendentes, devido ao antigo porto que recebia africanos escravizados, e também por descendentes de imigrantes italianos. Atualmente, conta com cerca de 130 mil habitantes e tem a economia baseada em serviços, turismo e petróleo. <br />
+Entre seus maiores atrativos está a Praia de Guriri, localizada a 13 km do centro, formada após a abertura da foz do Rio Mariricu, o que transformou a área na maior ilha do estado. Com 42 km de extensão, areia clara, águas mornas e piscinas naturais, Guriri é destino turístico famoso, principalmente no Carnaval, e abriga vegetação de restinga preservada. <br />
+Desde 1988, o Projeto Tamar atua na proteção das tartarugas marinhas e na conscientização ambiental local. <br /><br />
 
 
 
-Três principais leis sobre meio ambiente e oceano no Brasil
+Três principais leis sobre meio ambiente e oceano no Brasil <br />
 
 1. Lei nº 9.985/2000 (SNUC) – Cria o Sistema Nacional de Unidades de Conservação, protegendo ecossistemas naturais, biodiversidade e áreas costeiras.
-
+<br />
 
 2. Decreto nº 5.300/2004 (PNGC) – Regulamenta o Plano Nacional de Gerenciamento Costeiro, estabelecendo regras para o uso sustentável da zona costeira e marinha.
+<br />
 
-
-3. Lei nº 12.651/2012 (Código Florestal) – Protege a vegetação nativa, áreas de preservação permanente (como manguezais) e garante a conservação de ecossistemas litorâneos.
+3. Lei nº 12.651/2012 (Código Florestal) – Protege a vegetação nativa, áreas de preservação permanente (como manguezais) e garante a conservação de ecossistemas litorâneos. <br />
                 </p>
               </CardContent>
             </Card>
@@ -564,7 +564,7 @@ Três principais leis sobre meio ambiente e oceano no Brasil
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  Acesse as leis aqui:
+                  Acesse as leis aqui: <br />
                   <a href="https://docs.google.com/document/d/1WsKd3KJN3vf6puL2HUKDMjDfhngEY1-8U_MK4mfvctM/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Leis Ambientais</a>
                 </p>
               </CardContent>
@@ -580,12 +580,12 @@ Três principais leis sobre meio ambiente e oceano no Brasil
               <CardContent>
                 <p className="text-gray-700">
                   Ocorreu muitas vezes a presença de baleias na praia de Guriri, o que gerou preocupações sobre a conservação da espécie e o impacto das atividades humanas no seu habitat.
-                  Reportagens encontradas:
-                  <a href="https://www.agazeta.com.br/es/cotidiano/baleia-e-encontrada-morta-na-praia-de-guriri-em-sao-mateus-0820" target="_blank" rel="noopener noreferrer">Baleia é encontrada morta na praia de Guriri, em São Mateus</a>
-                  <a href="https://g1.globo.com/espirito-santo/sul-es/noticia/baleia-jubarte-morta-aparece-em-praia-de-guriri-no-es.ghtml" target="_blank" rel="noopener noreferrer">Baleia jubarte morta aparece em praia de Guriri, no ES</a>
-                  <a href="https://www.agazeta.com.br/es/cotidiano/baleia-jubarte-encalha-em-praia-de-sao-mateus-0824" target="_blank" rel="noopener noreferrer">Baleia-jubarte encalha em praia de São Mateus</a>
-                  <a href="https://tconline.com.br/carcaca-de-jubarte-de-mais-de-13-metros-e-enterrada-em-guriri/" target="_blank" rel="noopener noreferrer">Carcaça de jubarte de mais de 13 metros é enterrada em Guriri</a>
-                  O motivo e como prevenir:
+                  <br />Reportagens encontradas: <br />
+                  <a href="https://www.agazeta.com.br/es/cotidiano/baleia-e-encontrada-morta-na-praia-de-guriri-em-sao-mateus-0820" target="_blank" rel="noopener noreferrer">Baleia é encontrada morta na praia de Guriri, em São Mateus</a><br />
+                  <a href="https://g1.globo.com/espirito-santo/sul-es/noticia/baleia-jubarte-morta-aparece-em-praia-de-guriri-no-es.ghtml" target="_blank" rel="noopener noreferrer">Baleia jubarte morta aparece em praia de Guriri, no ES</a><br />
+                  <a href="https://www.agazeta.com.br/es/cotidiano/baleia-jubarte-encalha-em-praia-de-sao-mateus-0824" target="_blank" rel="noopener noreferrer">Baleia-jubarte encalha em praia de São Mateus</a><br />
+                  <a href="https://tconline.com.br/carcaca-de-jubarte-de-mais-de-13-metros-e-enterrada-em-guriri/" target="_blank" rel="noopener noreferrer">Carcaça de jubarte de mais de 13 metros é enterrada em Guriri</a><br />
+                  O motivo e como prevenir: <br />
                   Baleias são encontradas mortas em praias por causas como encalhes acidentais (por desorientação, doenças ou perseguição de predadores), colisões com embarcações, ingestão de lixo marinho e poluição sonora que afeta sua navegação.
 A prevenção envolve reduzir a poluição dos oceanos, limitar o tráfego de barcos em áreas de migração, controlar ruídos subaquáticos e fortalecer programas de monitoramento e resgate rápido.
                 </p>
@@ -600,20 +600,18 @@ A prevenção envolve reduzir a poluição dos oceanos, limitar o tráfego de ba
                 <CardDescription>Flora típica da região como o coquinho</CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-gray-700">A restinga em Guriri é um ecossistema litorâneo com vegetação adaptada a solos arenosos, que atua como importante barreira natural às dunas e separa a Mata Atlântica do oceano.  Na orla norte de Guriri, estão sendo plantadas mudas nativas — inclusive do tradicional coqueiro-guriri — como parte das ações de recuperação ambiental, com proteção por cercamento para evitar impactos humanos.</p>
+                <p className="text-gray-700">O nome "Guriri" vem do tupi antigo e significa “coco pequeno”, referindo-se aos frutos comestíveis de palmeiras nativas da região, do gênero Allagoptera arenaria, conhecidos popularmente como coquinho-guriri. Essas palmeiras eram — e ainda são — muito abundantes ao longo da ilha, o que inspirou o nome da praia e do balneário.</p>
                 <p className="text-gray-700">
-                  A restinga em Guriri é um ecossistema litorâneo com vegetação adaptada a solos arenosos, que atua como importante barreira natural às dunas e separa a Mata Atlântica do oceano.  Na orla norte de Guriri, estão sendo plantadas mudas nativas — inclusive do tradicional coqueiro-guriri — como parte das ações de recuperação ambiental, com proteção por cercamento para evitar impactos humanos
-                  O nome "Guriri" vem do tupi antigo e significa “coco pequeno”, referindo-se aos frutos comestíveis de palmeiras nativas da região, do gênero Allagoptera arenaria, conhecidos popularmente como coquinho-guriri. Essas palmeiras eram — e ainda são — muito abundantes ao longo da ilha, o que inspirou o nome da praia e do balneário.
                   Além do coqueiro-guriri (Allagoptera arenaria), a restinga de Guriri abriga espécies nativas como:
-
-                  - Ipomeia (Ipomoea pes-caprae) – trepadeira que fixa a areia e ajuda no controle da erosão.
-
-                  - Aroeira (Schinus terebinthifolius) – arbusto resistente que fornece abrigo para aves.
-
-                  - Pitanga-da-praia (Eugenia uniflora) – frutífera nativa que atrai fauna.
-
-                  - Capim-da-praia (Panicum racemosum) – essencial para estabilizar dunas.
-
                 </p>
+                <p className="text-gray-700">- Ipomeia (Ipomoea pes-caprae) – trepadeira que fixa a areia e ajuda no controle da erosão.</p>
+                <p className="text-gray-700">- Aroeira (Schinus terebinthifolius) – arbusto resistente que fornece abrigo para aves.</p>
+                <p className="text-gray-700">- Pitanga-da-praia (Eugenia uniflora) – frutífera nativa que atrai fauna.</p>
+                <p className="text-gray-700">- Capim-da-praia (Panicum racemosum) – essencial para estabilizar dunas.</p>               
+
+                  
+                
               </CardContent>
             </Card>
           </TabsContent>
@@ -625,7 +623,7 @@ A prevenção envolve reduzir a poluição dos oceanos, limitar o tráfego de ba
                 <CardDescription>Fontes e materiais consultados</CardDescription>
               </CardHeader>
               <CardContent>
-                    <a href="https://docs.google.com/document/d/1JxNA-TCURp5L3RCbDmy1jeLHQCNxpngiiU3AFT778E8/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">Acesse aqui</a>
+                    <a href="https://docs.google.com/document/d/1JxNA-TCURp5L3RCbDmy1jeLHQCNxpngiiU3AFT778E8/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">Clique aqui</a>
               </CardContent>
             </Card>
           </TabsContent>
